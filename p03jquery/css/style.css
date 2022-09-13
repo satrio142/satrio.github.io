@@ -44,3 +44,17 @@ td:hover {
 th:hover {
     transform: scale(1.05);
 }
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: lightblue;
+  color: black;
+  padding: 10px;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
