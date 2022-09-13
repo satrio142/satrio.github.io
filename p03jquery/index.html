@@ -1,0 +1,103 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Satrio Jquery</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<div class="content">
+    <center>
+        <h1>The Top 5 of My Best Friend</h1>
+    </center>
+
+    <center>
+
+         <table  border="5" cellpadding="10" width="100%"  >
+
+      <hr>
+         <color>
+         <thead class="tabel_judul" >
+             <th>Nomor</th>
+             <th>Nama</th>
+             <th>Alamat</th>
+             <th>Hapus</th>
+         </thead>
+         <tr id="row_1" bgcolor="yellow">
+             <td>1</td>
+             <td class="nama">adit</td>
+             <td>Cirebon</td>
+             <td><button class="hapus" id="hapus_1">Delete</button></td>
+
+         </tr>
+
+         <tr id="row_2" bgcolor="yellow">
+            <td>2</td>
+            <td class="nama">ferdi</td>
+            <td>Cirebon</td>
+            <td><button class="hapus" id="hapus_2">Delete</button></td>
+         </tr bgcolor="yellow">
+
+         <tr id="row_3" bgcolor="yellow">
+            <td>3</td>
+            <td class="nama">fatha</td>
+            <td>Kuningan</td>
+            <td><button class="hapus" id="hapus_3">Delete</button></td>
+         </tr bgcolor="yellow">
+
+         <tr id="row_4" bgcolor="yellow">
+             <td>4</td>
+             <td class="nama">rizal</td>
+             <td>Cirebon</td>
+             <td><button class="hapus" id="hapus_4">Delete</button></td>
+
+         </tr bgcolor="yellow">
+
+         <tr id ="row_5" bgcolor="yellow">
+            <td>5</td>
+            <td class="nama">prima</td>
+            <td>Cirebon</td>
+            <td><button class="hapus" id="hapus_5">Delete</button></td>
+        </tr bgcolor="yellow">
+
+
+          </table>
+    </center>
+
+  <hr>
+  <center>
+    <h2> Itulah top 5 teman teman saya</h2>
+  </center>
+ </div> 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.nama').click(function(){
+                let nama = $(this).text()
+                let edit = prompt('Edit Nama:', nama)
+
+                if(!edit) return
+                $(this).text(edit)
+            })
+            $('.alamat').click(function(){
+                let alamat = $(this).text()
+                let edit = prompt('Edit Alamat:', alamat)
+
+                if(!edit) return
+                $(this).text(edit)
+            })
+            $('.hapus').click(function(){
+                let yakin = confirm('Anda yakin ingin menghapusnya?')
+
+                if(!yakin) return
+                let id = $(this).prop('id')
+                let rid = id.split('_')
+                let baris = rid[1]
+                $('#row_'+baris).slideUp()
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,7 +1,13 @@
 td{text-align: center;}
 
 
-body{background-image: url(foto1.jpg);}
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
 
 th{background-color: white;}
 
