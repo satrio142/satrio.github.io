@@ -1,0 +1,88 @@
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Satrio Jquery fadeout</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<div class="content">
+    <center>
+        <h1>The Top 5 of My Best Friend</h1>
+    </center>
+
+    <center>
+
+
+         <table  border="5" cellpadding="10" width="100%"  >
+         	 <thead class="tabel_judul" >
+             <th>Nomor</th>
+             <th>Nama</th>
+             <th>Alamat</th>
+             <th>Hapus</th>
+
+                <tr id="baris_1">
+				<td class="kolom">1</td>
+				<td class="kolom" id="nama_1">Muhammad Adithya Pratama</td>
+				<td class="kolom">Babakan</td>
+				<td><button class="kolom hapus" id="delete_1">Delete</button></td>
+			</tr>
+			<tr id="baris_2">
+				<td class="kolom">2</td>
+				<td class="kolom" id="nama_2">Mochammad Fatha Mudzhaffar</td>
+				<td class="kolom">Babakan</td>
+				<td><button class="kolom hapus" id="delete_2">Delete</button></td>
+			</tr>
+			<tr id="baris_3">
+				<td class="kolom">3</td>
+				<td class="kolom" id="nama_3">Satrio</td>
+				<td class="kolom">Pabuaran</td>
+				<td><button class="kolom hapus" id="delete_3">Delete</button></td>
+			</tr>
+			<tr id="baris_4">
+				<td class="kolom">4</td>
+				<td class="kolom" id="nama_4">Farras Ramadhan</td>
+				<td class="kolom">Cirebon</td>
+				<td><button class="kolom hapus" id="delete_4">Delete</button></td>
+			</tr>
+			<tr id="baris_5">
+				<td class="kolom">5</td>
+				<td class="kolom" id="nama_5">Ilham Nur Hermawan</td>
+				<td class="kolom">Babakan</td>
+				<td><button class="kolom hapus" id="delete_5">Delete</button></td>
+
+          </table>
+    </center>
+
+  <hr>
+  <center>
+    <h2> Itulah top 5 teman teman saya</h2>
+  </center>
+  <button onclick="document.location.href = '../'">kembali</button>
+ </div> 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+	    $('.kolom').click(function(){
+		let isi = $(this).text();
+		let tid = $(this).prop('id');
+		let rid = tid.split('_');
+		let id_baris = rid[1];
+		let nama = $('#nama_'+id_baris).text();
+
+		if(isi == 'Delete'){
+			let yakin = confirm(`Anda yakin ingin menghapus data atas nama ${nama}?`);
+
+			if(!yakin) return;
+			$('#baris_'+id_baris).fadeOut();
+		} else{
+			alert('Tidak ada apa-apa di sini');
+		}
+	})
+})
+    </script>
+</body>
+</html>

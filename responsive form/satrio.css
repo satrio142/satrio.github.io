@@ -1,0 +1,93 @@
+.formulir {
+	margin: 2%;
+}
+
+fieldset {
+	border-radius: 10px;
+	margin: 5px;
+	background-color: lightblue;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+button {
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.kembali {
+	background-color: blue;
+	color: white;
+	transition: 0.2s;
+}
+
+.kembali:hover {
+	background-color: blueviolet;
+}
+
+.submit {
+	background-color: darkred;
+	color: white;
+	transition: 0.2s;
+}
+
+.submit:hover {
+	background-color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    ol li {
+        font-size: 12px;
+    }
+
+    .formulir {
+        padding: 15px;
+    }
+
+    .judulform {
+        font-size: 15px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    small {
+        font-size: 9px;
+    }
+
+    .masukkan, select {
+        padding: 5px 10px;
+        font-size: 10px;
+        margin: 5px 0 10px;
+    }
+
+    input[type=file] {
+        font-size: 10px;
+    }
+
+    button {
+        padding: 8px 10px;
+        margin: 3px 0;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+}
