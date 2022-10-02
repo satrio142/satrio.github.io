@@ -63,7 +63,7 @@ button:hover {
 
 
 .content {
-    position: fixed;
+  display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -119,13 +119,11 @@ a {
  p{font-size: 12px;}
  #video{position: fixed;}
  .content {
-  display: flex;
+  position: fixed;
   width: 100%;
  }
-.tombol{
-  width: 10px;
-  font-size: 5px;
-
+.tombol {
+  size: 15px;
+  font-size: 10px;
 }
-
 }
