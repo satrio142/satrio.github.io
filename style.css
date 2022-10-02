@@ -116,6 +116,13 @@ a {
     width: 100%;}
  h2{font-size: 15px;}
  h3{font-size: 14px;}
- a{font-size: 12px;}
-
+ p{font-size: 12px;}
+ #video{position: fixed;}
+ .content {
+  position: fixed;
+  width: 100%;
  }
+button  {
+  width: 15px;
+}
+}
