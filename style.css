@@ -34,7 +34,7 @@ h1:hover {
   letter-spacing: 1px;
 }
 
-img {
+.foto {
   cursor: pointer;
   width: 150px;
   border-radius: 50%;
@@ -43,7 +43,7 @@ img {
   transition: 0.2s;
 }
 
-img:hover {
+.foto:hover {
   transform: scale(1.2);
 }
 
@@ -70,8 +70,6 @@ button:hover {
 }
 
 a {
-	color: white;
-	font-size: 20px;
 	margin-right: 20px;
   margin-left: 20px;
 }
@@ -101,3 +99,23 @@ a {
   bottom: 50px;
   top: 10px;
 }
+ img {
+  width: 50px;
+ }
+
+ img:hover {
+  transform: scale(1.2);
+ }
+
+ @media screen and (max-width: 768px){
+
+  h1{
+    font-size: 18px;}
+
+  body{
+    width: 100%;}
+ h2{font-size: 15px;}
+ h3{font-size: 14px;}
+ a{font-size: 12px;}
+
+ }
