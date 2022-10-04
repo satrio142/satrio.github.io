@@ -6,7 +6,9 @@ body{
 }
 
 div {
+	border: 1px solid black;
 	border-radius: 10px;
+	box-shadow: 5px 10px black;
 }
 
 .navigator{
@@ -37,8 +39,6 @@ div {
 	display: none;
 	background-color: white;
 	padding: 10px;
-	border-left: 50px solid black;
-	border-right: 50px solid black;
 }
 
 .h1 {
@@ -115,4 +115,8 @@ div {
     }
     .p {
     	font-size: 13px;
+    }
+    
+    background-image {
+    	position: fixed;
     }
