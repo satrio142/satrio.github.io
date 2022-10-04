@@ -1,5 +1,32 @@
-.tombol {
-	background-color: blue;
-	border: none;
-	border-radius: 50px;
-}
+		body{
+			background-color: #eee;
+		}
+
+		.navigasi{
+			background-color: blue;
+			padding: 10px;
+		}
+
+		.menu{
+			padding: 10px;
+			color: white;
+		}
+		.menu:hover{
+			cursor: pointer;
+			background-color: black;
+		}
+
+		.aktif{
+			background-color: lightblue;
+		}
+
+		.home{
+			background-color: white;
+			padding: 10px;
+		}
+
+		.isi{
+			display: none;
+			background-color: white;
+			padding: 10px;
+		}

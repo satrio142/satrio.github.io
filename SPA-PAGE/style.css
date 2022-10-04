@@ -1,0 +1,112 @@
+body{
+	background-color: #eee;
+	background-image: url(ocean.jpg);
+	background-position: fixed;
+	background-size: 100%;
+}
+
+.navigator{
+	background-color: gray;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.menu{
+	padding: 10px;
+	color: white;
+}
+.menu:hover{
+	cursor: pointer;
+	background-color: black;
+}
+
+.aktif{
+	background-color: black;
+}
+
+.home{
+	background-color: white;
+	padding: 10px;
+}
+
+.isi{
+	display: none;
+	background-color: white;
+	padding: 10px;
+}
+
+.h1 {
+	color: black;
+}
+
+
+.foto {
+  cursor: pointer;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px gray;
+  padding: 5px;
+  transition: 0.2s;
+}
+.foto:hover {
+  transform: scale(1.2);
+} 
+
+.sosmed {
+	width: 75px;
+	cursor: pointer;
+	padding: 20px;
+}
+
+.sosmed:hover {
+	transform: scale(1.2);
+}
+
+.link {
+	cursor: pointer;
+
+}
+
+.link:hover {
+	transform: scale(1.01);
+}
+
+.h3:hover{
+	cursor: pointer;
+	transform: scale(1.02);
+	transition: 0.2s;
+}
+
+.h3 {
+	margin-left: 20px;
+}
+
+.p {
+	margin-left: 30px;
+}
+
+.h1 {
+	font-family: sans-serif;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.h1:hover {
+	transform: scale(1.2);
+
+}
+
+@media only screen and (max-width: 768px) {
+	.h1 {
+		font-size: 18px;
+	}
+
+	 .h3 {
+	 	font-size: 13px;
+	 }
+    .sosmed {
+    	width: 25px;
+    }
+    .p {
+    	font-size: 10px;
+    }
