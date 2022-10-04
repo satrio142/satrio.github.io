@@ -5,6 +5,11 @@ body{
 	background-size: 100%;
 }
 
+div {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
 .navigator{
 	background-color: gray;
 	padding: 10px;
@@ -109,4 +114,8 @@ body{
     }
     .p {
     	font-size: 13px;
+    }
+
+    body {
+    	position: fixed;
     }
