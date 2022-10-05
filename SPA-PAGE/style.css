@@ -129,7 +129,7 @@ button:hover {
   cursor: pointer;
 }
 
-.responsive {
+table {
 	width: 100%;
 }
 
@@ -155,7 +155,7 @@ button:hover {
     	position: fixed;
     }
 
-    table {
+    table, th, thead, tr, td, {
     	width: 100%;
     	max-width: 600px;
     }
