@@ -102,7 +102,18 @@ div {
 
 }
 
+td {
+	text-align: center;
+	background-color: lightblue;
+	color: black;
+	font-size: 20px;
+}
 
+th {
+	background-color: black;
+	color: white;
+	font-size: 25px;
+}
 
 button {
   border: none;
@@ -144,7 +155,21 @@ table {
     	position: fixed;
     }
 
-    table {
+    table{
     	width: 100%;
     	max-width: 600px;
     }
+
+    td {
+	text-align: center;
+	background-color: lightblue;
+	color: black;
+	font-size: 12px;
+}
+
+   th {
+	background-color: black;
+	color: white;
+	font-size: 15px;
+}
+
