@@ -153,4 +153,13 @@ button:hover {
 
 td {
 	text-align: center;
+	font-size: 13px;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	font-size: 15px;
 }
