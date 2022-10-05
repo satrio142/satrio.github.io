@@ -102,6 +102,36 @@ div {
 
 }
 
+td {
+	text-align: center;
+	background-color: lightblue;
+	color: black;
+	font-size: 20px;
+}
+
+th {
+	background-color: black;
+	color: white;
+	font-size: 25px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
 	.h1 {
 		font-size: 18px;
@@ -120,3 +150,7 @@ div {
     background-image {
     	position: fixed;
     }
+
+td {
+	text-align: center;
+}
