@@ -129,6 +129,10 @@ button:hover {
   cursor: pointer;
 }
 
+.responsive {
+	width: 100%;
+}
+
 
 
 
@@ -151,15 +155,9 @@ button:hover {
     	position: fixed;
     }
 
-td {
-	text-align: center;
-	font-size: 13px;
-}
+    .responsive {
+    	width: 100%;
+    	border: 1px solid #ddd;
+    	font-size: 13px;
+    }
 
-table{
-	width: 100%;
-}
-
-th{
-	font-size: 15px;
-}
