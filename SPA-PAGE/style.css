@@ -155,7 +155,7 @@ button:hover {
     	position: fixed;
     }
 
-    .responsive {
+    table {
     	width: 100%;
     	max-width: 600px;
     }
