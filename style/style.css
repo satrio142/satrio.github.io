@@ -1,0 +1,217 @@
+body{
+  background-color: #eee;
+  background-image: url(ocean.jpg);
+  background-position: fixed;
+  background-size: 100%;
+}
+
+div{
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 10px black;
+}
+
+.navigator{
+  background-color: gray;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.menu{
+  padding: 10px;
+  color: white;
+}
+.menu:hover{
+  cursor: pointer;
+  background-color: black;
+}
+
+.aktif{
+  background-color: black;
+}
+
+.home{
+  background-color: white;
+  padding: 10px;
+}
+
+.isi{
+  display: none;
+  background-color: white;
+  padding: 10px;
+}
+
+.h1 {
+  color: black;
+}
+
+
+.foto {
+  cursor: pointer;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 2px gray;
+  padding: 5px;
+  transition: 0.2s;
+}
+.foto:hover {
+  transform: scale(1.2);
+} 
+
+.sosmed {
+  width: 75px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.sosmed:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.link {
+  cursor: pointer;
+
+}
+
+.link:hover {
+  transform: scale(1.01);
+}
+
+.h3:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: 0.2s;
+}
+
+.h3 {
+  margin-left: 20px;
+}
+
+.p {
+  margin-left: 30px;
+}
+
+
+.nim:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.h1 {
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.h1:hover {
+  transform: scale(1.2);
+
+}
+
+td {
+  text-align: center;
+  background-color: lightblue;
+  color: black;
+  font-size: 20px;
+}
+
+th {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  margin: 2px;
+}
+
+button:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+}
+
+td{
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+td:hover {
+  background-color: lightgray;
+
+}
+
+th{
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+th:hover {
+  transition: 0.3s;
+  transform: scale(1.03);
+}
+
+.jam {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 30px;
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .h1 {
+    font-size: 20px;
+  }
+
+   .h3 {
+    font-size: 18px;
+   }
+    .sosmed {
+      width: 50px;
+    }
+    .p {
+      font-size: 13px;
+    }
+    
+    background-image {
+      position: fixed;
+    }
+
+    table{
+      width: 100%;
+      max-width: 600px;
+    }
+
+    td {
+  text-align: center;
+  background-color: lightblue;
+  color: black;
+  font-size: 12px;
+}
+
+   th {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+body {
+  background-size: 100%;
+  background-position: fixed;
+}
+
