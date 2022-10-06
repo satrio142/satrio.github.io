@@ -110,18 +110,6 @@ div{
 
 }
 
-td {
-  text-align: center;
-  background-color: lightblue;
-  color: black;
-  font-size: 20px;
-}
-
-th {
-  background-color: black;
-  color: white;
-  font-size: 25px;
-}
 
 button {
   border: none;
@@ -144,6 +132,10 @@ table {
 td{
   cursor: pointer;
   border-radius: 5px;
+  text-align: center;
+  background-color: lightblue;
+  color: black;
+  font-size: 20px;
 }
 
 td:hover {
@@ -152,6 +144,9 @@ td:hover {
 }
 
 th{
+  background-color: black;
+  color: white;
+  font-size: 25px;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -162,7 +157,6 @@ th:hover {
 }
 
 .jam {
-  border: px solid black;
   border-radius: 5px;
   font-size: 30px;
   text-align: center;
@@ -172,6 +166,7 @@ th:hover {
 
 .tabel {
   background-color: gray;
+  border-radius: 10px;
 }
 
 
@@ -190,9 +185,6 @@ th:hover {
       font-size: 13px;
     }
     
-    background-image {
-      position: fixed;
-    }
 
     table{
       width: 100%;
@@ -212,8 +204,4 @@ th:hover {
   font-size: 15px;
 }
 
-body {
-  background-size: 100%;
-  background-position: fixed;
-}
 
