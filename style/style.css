@@ -1,15 +1,14 @@
 body{
-  background-color: #eee;
-  background-image: url(ocean.jpg);
-  background-position: fixed;
+  background-color: white;
+  background-image: url(ocean.webp);
   background-size: 100%;
 }
 
-div{
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 5px 10px black;
+header {
+  background-color: white;
 }
+
+
 
 .navigator{
   background-color: gray;
@@ -43,8 +42,20 @@ div{
 
 .h1 {
   color: black;
+
 }
 
+.welcome {
+  background-color:   white;
+  padding: 30px;
+  border-radius:  10px 10px 0 0;
+}
+
+h1 {
+  margin: auto ;
+  text-align: center;
+  font-family: Times New Roman, serif;
+}
 
 .foto {
   cursor: pointer;
@@ -157,9 +168,8 @@ th:hover {
 }
 
 .jam {
-  border-radius: 5px;
+  border-radius: 0 0 10px 10px;
   font-size: 30px;
-  text-align: center;
   background-color: ;
   color: white;
 }
@@ -167,6 +177,13 @@ th:hover {
 .tabel {
   background-color: gray;
   border-radius: 10px;
+}
+
+.bottom {
+  border-radius:  0 0 10px 10px;
+  background-color: gray;
+  padding:  10px;
+  display: block;
 }
 
 
@@ -203,5 +220,6 @@ th:hover {
   color: white;
   font-size: 15px;
 }
+
 
 
